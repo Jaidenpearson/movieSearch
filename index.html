@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movieSearch</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div id="headerContainer">
+            <h1 id="header">Movie Search</h1>
+            <form id="searchContainer">
+                <input id="search" type="text" value="">
+                <button id="submit" value="button" type="submit">submit</button>
+            </form>
+            <div id="searchResults">
+                <div>
+                    <div class="resultContainer">
+                        <img class="thumbnail" src="https://m.media-amazon.com/images/M/MV5BN2Y5ZTU4YjctMDRmMC00MTg4LWE1M2MtMjk4MzVmOTE4YjkzXkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_SX300.jpg" alt="">
+                        <div>Cast Away</div>
+                        <div>2000</div>
+                    </div>
+                </div>
+            </div>
+        </ul>
+        </div>
+        <div id="movieContainer">
+            <div class="movie">
+                <img id="poster" src="" alt="">
+                <div id="title"></div>
+                <div id="year"></div>
+                <div id="rating"></div>
+                <div id="director"></div>
+                <div id="runtime"></div>
+                <div id="plot"></div>
+                <div id="ratingContainer">
+                    <div class="infoContainer">
+                        <div class="rating">${data.imdbRating}</div>
+                        <div class="webTitle">Imdb</div>
+                    </div>
+                    <div class="infoContainer">
+                        <div class="rating">${Metascore}</div>
+                        <div class="infoContainer">Metascore</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
